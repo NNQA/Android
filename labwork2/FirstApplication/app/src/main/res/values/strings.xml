@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App Ip</string>
+    <string name="text_name">wuok ank</string>
+    <string name="text_name1">Cute qua di</string>
+    <string name="hint_text">please enter something</string>
+    <string name="phone"> Please enter ur phone</string>
+    <string name="password">Enter ur Password</string>
+</resources>
