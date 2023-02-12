@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:id="@+id/l1">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:height="48dp"
+            android:hint="Name"
+            android:gravity="center"
+            android:layout_weight="2"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="Address"
+            android:height="48dp"
+            android:gravity="center"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/l1"
+        android:id="@+id/l2">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Subject"
+            android:height="48dp"
+            android:gravity="center"
+            android:layout_weight="2"/>
+
+        <EditText
+            android:id="@+id/multiplyText"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:layout_weight="2"
+            android:hint="Message"
+            android:gravity="center"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l2"
+        android:layout_marginTop="1dp"
+        android:text="Button"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
