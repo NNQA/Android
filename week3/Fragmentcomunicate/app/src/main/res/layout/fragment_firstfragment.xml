@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstfragment"
+    android:background="@color/pink1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment 1"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="@color/blue1"
+        />
+
+
+    <TextView
+        android:id="@+id/formdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        />
+    <EditText
+        android:id="@+id/fragmentdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Data to fragment 2"
+        android:layout_marginHorizontal="26dp"
+        android:ems="10"
+        android:layout_marginTop="300dp"
+        android:inputType="textPersonName"
+        android:textSize="32dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="32dp"
+        android:text="SEND DATA TO FRAGMENT 2"
+        />
+
+
+</FrameLayout>
