@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "15049940855",
+    "firebase_url": "https://sacred-courier-380213-default-rtdb.firebaseio.com",
+    "project_id": "sacred-courier-380213",
+    "storage_bucket": "sacred-courier-380213.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15049940855:android:91d4fbd7f3146f926e8b72",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15049940855-dgd4gh1ra72hnv6bhul1d3jt0nq9ptcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrrkIKkWHRJYDa00TGcGgVLFO8lRB1R2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15049940855-dgd4gh1ra72hnv6bhul1d3jt0nq9ptcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
